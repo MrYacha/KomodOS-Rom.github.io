@@ -1,0 +1,41 @@
+<!-- NAVBAR -->
+<div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large left"><i
+          class="material-icons left">menu</i></a>
+    </div>
+  </nav>
+</div>
+<div id="app">
+  <ul id="slide-out" class="sidenav">
+    <div>
+      <a class="bar-logo center" href="/">
+        <img src="/asset/img/icon.png" width="100" height="100">
+        <h4 class="accent">KomodOS</h4>
+      </a>
+
+	</div>
+	<ul class="collapsible collapsible-accordion">
+	  <li>
+		<div class="collapsible-header">
+		  <i class="material-icons">phone_android</i>
+		  <span style="width: 90%">Xiaomi</span>
+		  <i class="material-icons">arrow_drop_down</i>
+		</div>
+
+		<div class="collapsible-body">
+		  <ul>
+			<li>
+			  <a href="{{- '/rom/vince/' | relative_url -}}">Redmi 5 Plus</a>
+			  <a href="{{- '/rom/riva/' | relative_url -}}">Redmi 5A</a>
+			  <a href="{{- '/rom/rolex/' | relative_url -}}">Redmi 4A</a>
+			  <a href="{{- '/rom/santoni/' | relative_url -}}">Redmi 4X</a>
+			</li>
+		  </ul>
+		</div>
+	  </li>
+	</ul>
+  </ul>
+</div>
+<!-- END NAVBAR -->
